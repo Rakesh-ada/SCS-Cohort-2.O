@@ -1,0 +1,59 @@
+@font-face{
+    font-family:racing;
+    src:url(./Raceline\ Demo.otf) ;
+}
+
+@font-face{
+    font-family:racing2;
+    src:url(./Dashhorizon-eZ5wg.otf) ;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height:100%;
+    width:100%;
+    background-color:black;
+    background-image:url('https://images.unsplash.com/photo-1760199129864-df2332e3f3e7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332');
+    background-position:top;
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align:center;
+
+}
+
+.title{
+    font-family:racing2;
+    font-size:90px;
+    color:white;
+    font-weight:100;
+}
+
+.btn{
+
+    font-family:racing;
+    font-size:15px;
+    color:white;
+    background-color:transparent;
+    border: 2px solid #CF753B;
+    border-radius:10px;
+    padding:10px 20px;
+    cursor:pointer; 
+    font-weight:100;
+    margin-top:20px;
+    
+}
+ .btn:hover{
+    background-color:#CF753B;
+    border: 2px solid white;
+ }
