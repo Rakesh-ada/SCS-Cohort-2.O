@@ -51,15 +51,20 @@ html,body{
 
 #nav a {
     text-decoration:none;
-    color:white;
+    color:rgb(207, 206, 206);
     font-size:11px;
     font-weight:400px;
     padding:5px;
     font-family:R-Apple;
 }
 
-i {
+#nav a:hover{
     color:white;
+}
+
+
+i {
+    color:rgb(207, 206, 206);
     font-family:I-Apple;
     font-size:17px;
 
